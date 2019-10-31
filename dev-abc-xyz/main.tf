@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "fsr-tfstate-aws"
+        bucket = "<change to your bucket name>"
         key = "dev-abc-xyz/terraform.tfstate"
         region = "us-east-1"
         encrypt = true
