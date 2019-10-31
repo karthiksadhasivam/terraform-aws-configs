@@ -23,7 +23,7 @@ data "aws_ami" "centos" {
     values = ["Centos7*"]
   }
 
-  owners = ["325603188418"]
+  owners = ["<replace the owner id of the image>"]
 }
 
 resource "aws_launch_configuration" "master" {
