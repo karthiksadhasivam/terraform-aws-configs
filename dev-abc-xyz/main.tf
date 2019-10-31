@@ -20,7 +20,7 @@ data "aws_ami" "centos" {
 
   filter {
     name   = "name"
-    values = ["Centos7-2019*"]
+    values = ["Centos7*"]
   }
 
   owners = ["325603188418"]
